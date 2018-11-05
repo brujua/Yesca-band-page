@@ -49,7 +49,7 @@
    last rules
    ========================================================================== */
 .img-logo {
-  width: 50%; }
+  width: 30%; }
 
 /* ==========================================================================
    Disco ball
@@ -163,7 +163,7 @@ a {
 
 h1, h2, h3, h4, h5 {
   font-family: 'bebasregular', sans-serif;
-  font-size: 40px;
+  font-size: 20px;
   font-weight: 700;
   letter-spacing: 1px; }
 
@@ -212,7 +212,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
     margin: auto;
     width: 70px;
     position: relative;
-    border-top: 2px solid #FFFF;
+    border-top: 2px solid white;
     margin-top: 15px; }
 
 /* ==========================================================================
@@ -239,7 +239,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 .btn-common {
   border: 1px solid #FFFF;
-  background: #FFFF;
+  background: black;
   position: relative;
   color: #fff;
   z-index: 1;
@@ -925,9 +925,9 @@ button:focus {
       margin-bottom: 5px;
       font-size: 20px;
       font-weight: 700;
-      color: #333; }
+      color: black; }
     .single-team .team-details p {
-      color: #333; }
+      color: black; }
   .single-team .social-list li {
     display: inline-block; }
     .single-team .social-list li a {
