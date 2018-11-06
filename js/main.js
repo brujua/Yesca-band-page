@@ -196,7 +196,7 @@ var t = 0.05;
 var radius = 50;
 var squareSize = 6.5;
 var prec = 19.55;
-var fuzzy = 0.1;
+var fuzzy = 0.01;
 var inc = (Math.PI-fuzzy)/prec;
 var discoBall = document.getElementById("discoBall");
 

@@ -90,6 +90,13 @@ $letter-spacing: 0px;
   section#services {
     padding-top: 20px;
   }
+
+  //foto grupal background
+p#fotoGrupalbox{
+  margin: 100px;
+}
+
+ // COLOR GRADIENT LETRAS funk y disco
 .linear-wipe {
   text-align: center;
 
@@ -176,8 +183,8 @@ $letter-spacing: 0px;
 	top: 50px;
 	left: 50%;
 	margin-left: -50px;
-	-webkit-animation: rotateDiscoBall 18s linear infinite;
-	animation: rotateDiscoBall 18s linear infinite;
+	-webkit-animation: rotateDiscoBall 48s linear infinite;
+	animation: rotateDiscoBall 48s linear infinite;
 }
 
 #discoBallLight {

@@ -57,6 +57,9 @@ img.logo-principal {
 section#services {
   padding-top: 20px; }
 
+p#fotoGrupalbox {
+  margin: 100px; }
+
 .linear-wipe {
   text-align: center;
   background: linear-gradient(to right, #4CB8C4 20%, #514A9D 40%, #514A9D 60%, #4CB8C4 90%);
@@ -129,8 +132,8 @@ section#services {
   top: 50px;
   left: 50%;
   margin-left: -50px;
-  -webkit-animation: rotateDiscoBall 18s linear infinite;
-  animation: rotateDiscoBall 18s linear infinite; }
+  -webkit-animation: rotateDiscoBall 48s linear infinite;
+  animation: rotateDiscoBall 48s linear infinite; }
 
 #discoBallLight {
   width: 100px;
