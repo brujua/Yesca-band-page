@@ -192,6 +192,7 @@
    Disco ball
    ========================================================================== */
 
+/*
 var t = 0.05;
 var radius = 50;
 var squareSize = 6.5;
@@ -248,4 +249,4 @@ function randomColor(type) {
 
 function randomNumber(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
-}
+}*/
