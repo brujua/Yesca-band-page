@@ -192,12 +192,11 @@
    Disco ball
    ========================================================================== */
 
-/*
 var t = 0.05;
 var radius = 50;
 var squareSize = 6.5;
 var prec = 19.55;
-var fuzzy = 0.001;
+var fuzzy = 0.1;
 var inc = (Math.PI-fuzzy)/prec;
 var discoBall = document.getElementById("discoBall");
 
@@ -249,4 +248,4 @@ function randomColor(type) {
 
 function randomNumber(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
-}*/
+}
