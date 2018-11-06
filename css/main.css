@@ -181,7 +181,7 @@ html {
   overflow-x: hidden; }
 
 p {
-  font-size: 15px;
+  font-size: 22px;
   line-height: 26px; }
 
 a:hover, a:focus {
@@ -238,7 +238,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   .section-header .section-subtitle {
     margin-top: 14px;
     color: white;
-    font-size: 18px;
+    font-size: 28px;
     font-weight: 400; }
   .section-header .lines {
     margin: auto;
