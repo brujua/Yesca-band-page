@@ -33,6 +33,10 @@
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
             <a href="index.html" class="navbar-brand"><img class="img-logo" src="img/yescaWhiteLogo.png" alt=""></a>
+              <!--<div id="discoBallLight"></div>
+              <div id="discoBall">
+                  <div id="discoBallMiddle"></div>
+              </div>-->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
               <i class="lnr lnr-menu"></i>
             </button>
@@ -46,7 +50,7 @@
                 <a class="nav-link page-scroll" href="#services">Services</a>
               </li>-->
               <li class="nav-item">
-                <a class="nav-link page-scroll" href="#features">Escuchar</a>
+                <a class="nav-link page-scroll" href="#escuchar">Escuchar</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link page-scroll" href="#team">Integrantes</a>
@@ -94,7 +98,7 @@
 
 
                  <img class="logo-principal" src="img/yescaLogo.png" alt="">
-            <!--      <div class="wrapper">
+                  <!--<div class="wrapper">
                     <canvas id="first"></canvas>
                   </div>-->
               <!--<p class="lead  wow fadeIn" data-wow-duration="1000ms" data-wow-delay="400ms">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>-->
@@ -110,24 +114,19 @@
     <section id="services" class="section">
       <div class="container">
         <div class="section-header">
-            <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Música <span class="linear-wipe">Funk </span> & <span class="linear-wipe2">Disco </span> para eventos</h2>
+            <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Musica <span class="linear-wipe">Funk </span> & <span class="linear-wipe2">Disco </span> para eventos</h2>
           <hr class="lines wow zoomIn" data-wow-delay="0.3s">
           <p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Yesca es una banda Funk & Disco para eventos inspirada en grandes referentes del mundo musical de los  ́70  ́80 90, tanto como grandes artistas del Pop de la actualidad. Para encender cada pista decidimos rememorar esas grandes obras.
              </p>
-            <p>   Esta variedad de influencias nos permite lograr siempre un amplio repertorio digno de cualquier evento y a la altura de cualquier generación.</p>
         </div>
         <div class="row">
           <div class="col-md-4 col-sm-6">
             <div class="item-boxes wow fadeInDown" data-wow-delay="0.2s">
-              <!--<div class="icon">
-                <i class="lnr lnr-music-note"></i>
+              <div class="icon">
+                <i class="lnr lnr-star"></i>
               </div>
-              <h4></h4>-->
-                <div id="discoBallLight"></div>
-                <div id="discoBall">
-                    <div id="discoBallMiddle"></div>
-                </div>
-
+              <h4></h4>
+              <p>   Esta variedad de influencias nos permite lograr siempre un amplio repertorio digno de cualquier evento y a la altura de cualquier generación.</p>
             </div>
           </div>
           <div class="col-md-4 col-sm-6">
@@ -142,7 +141,7 @@
           <div class="col-md-4 col-sm-6">
             <div class="item-boxes wow fadeInDown" data-wow-delay="1.2s">
               <div class="icon">
-                <i class="lnr lnr-diamond"></i>
+                <i class="lnr lnr-star"></i>
               </div>
               <h4></h4>
               <p>Yesca tiene como objetivo el cumplimiento de un show de alta calidad musical tanto como un nivel de diversión y baile excepcional.</p>
@@ -220,13 +219,14 @@
     <!-- Features Section End -->
 
       <!-- Start Video promo Section -->
-      <section class="video-promo section">
+      <section id="escuchar" class="video-promo section">
           <div class="container">
               <div class="row justify-content-center">
                   <div class="col-lg-8">
-                      <div class="video-promo-content text-center">
-                          <h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Escuchanos!</h2>
-                          <iframe width="560" height="315" src="https://www.youtube.com/embed/OQEqCP6FUwE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      <div  class="video-promo-content text-center">
+                          <h2 class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms"></h2>
+                          <!--<iframe width="560" height="315" src="https://www.youtube.com/watch?v=5VpSC6EW3lI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+                          <iframe width="560" height="315" src="https://www.youtube.com/embed/5VpSC6EW3lI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                           <!--<p class="wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms"></p>
                           <a href="https://youtu.be/OQEqCP6FUwE" class="video-popup wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="0.3s"><i class="lnr lnr-film-play"></i></a>-->
                       </div>
@@ -907,7 +907,23 @@
       </div>
     </section>-->
     <!-- blog Section End -->
+      <!-- Load Facebook SDK for JavaScript -->
+      <!--<div id="fb-root"></div>
+      <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+          fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
 
+      &lt;!&ndash; Your like button code &ndash;&gt;
+      <div class="fb-like"
+           data-href="https://www.your-domain.com/your-page.html"
+           data-layout="standard"
+           data-action="like"
+           data-show-faces="true">-->
+      </div>
     <!-- Contact Section Start -->
     <section id="contact" class="section" data-stellar-background-ratio="-0.2">
       <div class="contact-form">

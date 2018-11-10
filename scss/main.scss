@@ -96,11 +96,16 @@ p#fotoGrupalbox{
   margin: 100px;
 }
 
+section.video-promo {
+	padding-top: 5px;
+	margin-top: 80px;
+}
+
  // COLOR GRADIENT LETRAS funk y disco
 .linear-wipe {
   text-align: center;
 
-  background: linear-gradient(to right, #4CB8C4 20%, #514A9D 40%, #514A9D 60%, #4CB8C4 90%);
+  background: linear-gradient(to right, #e9e803 20%, #dc3c06 40%, #dc3c06 60%, #e9e803 90%);
   background-size: 200% auto;
 
   color: #000;
@@ -119,8 +124,7 @@ p#fotoGrupalbox{
 
 .linear-wipe2 {
   text-align: center;
-
-  background: linear-gradient(65deg,  #e66465 , #9198e5 );
+	background: linear-gradient(to left, #fe049d 20%, #8423dc 40%, #8423dc 60%, #fe049d 90%);
   background-size: 200% auto;
 
   color: #000;
@@ -132,7 +136,7 @@ p#fotoGrupalbox{
   animation: shine 2s linear infinite;
   @keyframes shine {
     to {
-      background-position: 200% center;
+      background-position: -200% center;
     }
   }
 }
@@ -177,8 +181,8 @@ p#fotoGrupalbox{
 #discoBall {
 	-webkit-transform-style: preserve-3d;
 	transform-style: preserve-3d;
-	width: 100px;
-	height: 100px;
+	width: 50px;
+	height: 50px;
 	position: absolute;
 	top: 50px;
 	left: 50%;
@@ -188,12 +192,12 @@ p#fotoGrupalbox{
 }
 
 #discoBallLight {
-	width: 100px;
-	height: 100px;
+	width: 50px;
+	height: 50px;
 	position: absolute;
-	top: 50px;
+	top: 25px;
 	left: 50%;
-	margin-left: -50px;
+	margin-left: -25px;
 	border-radius: 100%;
 	background-color: white;
 	opacity: 0.2;
@@ -204,10 +208,10 @@ p#fotoGrupalbox{
 	-webkit-transform-style: preserve-3d;
 	transform-style: preserve-3d;
 	position: absolute;
-	top: 50px;
-	left: 50px;
-	width: 6px;
-	height: 6px;
+	top: 25px;
+	left: 25px;
+	width: 3px;
+	height: 3px;
 	position: absolute;
 	transform: rotateX(90deg) rotateY(0deg) translateZ(0px);
 }
@@ -539,7 +543,7 @@ p#fotoGrupalbox{
    3. Hero Area
    ========================================================================== */
 	#hero-area{
-		background: url(../img/yescaLogoGrande.png) fixed no-repeat;
+		background: url(../img/yescaWhiteLogo2.png) fixed no-repeat;
 		background-size: cover;
 		color: #fff;
 		overflow: hidden;
@@ -827,7 +831,12 @@ p#fotoGrupalbox{
   7. Video promo Style
    ========================================================================== */
    .video-promo{
-	   	background: #000000;
+	   	//background: #000000;
+	   	background-image: url('../img/puntitos.png');
+
+	   background-repeat:repeat;
+	   background-size:contain;
+	   background-position:center;
 		color: #fff;
 		overflow: hidden;
 		position: relative;	
@@ -1103,7 +1112,7 @@ p#fotoGrupalbox{
 		transition: 0.5s;
 		box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
 		border-radius: 0px;
-		background: $preset;
+		background: black;
 		overflow: hidden;
    	img{
    		width: 100%;
@@ -1112,24 +1121,25 @@ p#fotoGrupalbox{
 		-webkit-transition: 0.5s;
 		transition: 0.5s;
    	}
-   	.team-details{
-			text-align: center;
-			-webkit-transition: 0.5s;
-			-moz-transition: 0.5s;
-			transition: 0.5s;
-			border-radius: 0px;
-			background: #f1f1f1;
-			padding: 15px;
-		.team-title{
+   	.team-details {
+		text-align: center;
+		-webkit-transition: 0.5s;
+		-moz-transition: 0.5s;
+		transition: 0.5s;
+		border-radius: 0px;
+		background: black;
+
+		padding: 15px;
+		.team-title {
 			margin-bottom: 5px;
 			font-size: 20px;
 			font-weight: 700;
-			color: black;
+			color: white;
 		}
-		p{
-			color: black;
+		p {
+			color: white;
 		}
-   	}
+	}
    	.social-list{
    		li{
    			display: inline-block;

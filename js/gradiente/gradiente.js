@@ -4,7 +4,7 @@ var firstGranim = new Granim({
   direction: "diagonal",
   opacity: [1, 1],
   image: {
-    source: "img/Webp.net-resizeimage.png",
+    source: "img/yescaWhiteLogo3.png",
     position: ["center", "center"],
     blendingMode: "lighten"
   },
