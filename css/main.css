@@ -64,6 +64,9 @@ section.video-promo {
   padding-top: 5px;
   margin-top: 80px; }
 
+.contact-us li {
+  font-size: 30px; }
+
 .linear-wipe {
   text-align: center;
   background: linear-gradient(to right, #e9e803 20%, #dc3c06 40%, #dc3c06 60%, #e9e803 90%);
@@ -179,7 +182,7 @@ section.video-promo {
 body {
   font-family: 'akzidenz-grotesk_bq_light_cRg', sans-serif;
   color: white;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 400;
   background: #000000;
   overflow-x: hidden; }
@@ -330,20 +333,17 @@ button:focus {
   padding: 0;
   list-style: none; }
 
-.social-icons ul li {
-  display: inline; }
-
 .social-icons ul li a {
   display: inline-block;
   margin-right: 5px;
   margin-bottom: 15px;
   border-radius: 50%;
-  line-height: 40px;
-  width: 40px;
-  height: 40px;
+  line-height: 50px;
+  width: 50px;
+  height: 50px;
   text-align: center;
   background: #ddd;
-  font-size: 16px; }
+  font-size: 18px; }
 
 .social-icons ul li a:hover {
   color: #fff; }
@@ -597,9 +597,10 @@ button:focus {
   .navbar-brand {
     position: absolute;
     padding: 15px;
-    top: 0; }
+    top: 0;
+    width: 35%; }
     .navbar-brand img {
-      width: 70%; }
+      width: 100%; }
 
   #mobile-menu {
     display: none; }
@@ -608,6 +609,7 @@ button:focus {
     display: block; }
 
   .slicknav_nav .active a {
+    /*background: $preset;*/
     background: #FFFF;
     color: #fff; }
 
