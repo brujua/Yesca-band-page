@@ -78,6 +78,8 @@ $letter-spacing: 0px;
 /* ==========================================================================
    last rules
    ========================================================================== */
+
+
   .img-logo {
     width: 30%;
   }
@@ -91,9 +93,9 @@ $letter-spacing: 0px;
   }
 
   //foto grupal background
-p#fotoGrupalbox{
-  margin: 100px;
-}
+  p#fotoGrupalbox{
+    margin: 100px;
+  }
 
 section.video-promo {
 	padding-top: 5px;
@@ -691,6 +693,7 @@ section.video-promo {
         width: 35%;
 	    img{
 	      width: 100%;
+          max-width: 120px;
 	    }
 	}
 	  #mobile-menu {
@@ -759,8 +762,8 @@ section.video-promo {
   6. Features Section Style
    ========================================================================== */
 	#features{
-		background: url(../img/fullBanda2.png) fixed no-repeat;
-		background-size: cover;
+		background: url(../img/fullBanda.jpg) fixed no-repeat;
+		background-size: 100%;
 		color: #fff;
 		overflow: hidden;
 		position: relative;
@@ -870,6 +873,10 @@ section.video-promo {
 				  	line-height: 72px;
 				  }
 			}
+            iframe{
+              width: 80%;
+              height: 315px;
+            }
 		}
    }
   .overlay{
@@ -1026,81 +1033,7 @@ section.video-promo {
     	margin-top: 20px;
     }
 
-/* ==========================================================================
- 10. Counter Section Style
- ========================================================================== */
-   .counters{
-	   	background: url(../img/counter.jpg) fixed;
-		position: relative;
-		.facts-item{
-			text-align: center;
-			color: #fff;
-			.icon{
-				margin-bottom: 30px;
-				i{
-					font-size: 50px;
-					color: #fff;
-				}
-			}
-			
-			.fact-count{
-				h3{
-					font-size: 35px;
-					color: #fff;
-					margin-bottom: 15px;
-				}
-				h4{
-					font-size: 20px;
-					font-weight: 400;
-					color: #fff;
-				}
-			}
-		}
-   }
 
-/* ==========================================================================
-11. Testimonial Section Style
- ========================================================================== */  
-	#testimonial {
-		background: url(../img/testimonial-bg.jpg) fixed no-repeat;
-		background-size: cover;
-		color: #fff;
-		overflow: hidden;
-		position: relative;	
-	}	
-	.testimonial-item{
-		text-align: center;
-		img {
-		  	width:80px;
-		  	border: 3px solid #fff;
-			height:80px;
-			border-radius: 50%;
-		}
-		.testimonial-text{
-			 h3 {
-			  	font-size: 15px;
-				font-weight: 700;
-			}
-			span{
-				font-size: 14px;
-				color: #999;
-			}
-			p {			  	
-			  	font-size: 14px;
-				font-weight: 400;
-			  	padding: 36px 10px 30px 10px;
-				margin: 0;
-				line-height: 30px;
-			}
-
-		}
-	}
-	.owl-theme .owl-controls .owl-page span{
-		background: $preset;
-	}
-	.owl-theme .owl-controls{
-		margin-top: 20px;
-	}
  /* ==========================================================================
   12. Team Section
    ========================================================================== */
@@ -1330,6 +1263,38 @@ p{
     }
   }
 }
+}
+
+@media screen and (max-width: 768px){
+  .video-promo-content iframe{
+    height: 250px !important;
+  }
+
+  #services{
+    padding-bottom: 0;
+  }
+
+  #features {
+    padding: 0;
+    padding-top: 80px;
+    font-size: 0;
+  }
+  p#fotoGrupalbox{
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  #escuchar{
+    margin-top: 15px;
+  }
+
+}
+
+@media screen and (max-width: 400px){
+  .video-promo-content iframe{
+    height: 150px !important;
+  }
 }
 
 

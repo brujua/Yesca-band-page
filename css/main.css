@@ -600,7 +600,8 @@ button:focus {
     top: 0;
     width: 35%; }
     .navbar-brand img {
-      width: 100%; }
+      width: 100%;
+      max-width: 120px; }
 
   #mobile-menu {
     display: none; }
@@ -660,8 +661,8 @@ button:focus {
  6. Features Section Style
   ========================================================================== */
 #features {
-  background: url(../img/fullBanda2.png) fixed no-repeat;
-  background-size: cover;
+  background: url(../img/fullBanda.jpg) fixed no-repeat;
+  background-size: 100%;
   color: #fff;
   overflow: hidden;
   position: relative; }
@@ -748,6 +749,9 @@ button:focus {
       transition: all 0.5s ease-in-out; }
       .video-promo .video-promo-content .video-popup i {
         line-height: 72px; }
+    .video-promo .video-promo-content iframe {
+      width: 80%;
+      height: 315px; }
 
 .overlay {
   position: absolute;
@@ -877,65 +881,6 @@ button:focus {
       border-bottom: 1px dotted #f1f1f1; }
 
 .table-left {
-  margin-top: 20px; }
-
-/* ==========================================================================
- 10. Counter Section Style
- ========================================================================== */
-.counters {
-  background: url(../img/counter.jpg) fixed;
-  position: relative; }
-  .counters .facts-item {
-    text-align: center;
-    color: #fff; }
-    .counters .facts-item .icon {
-      margin-bottom: 30px; }
-      .counters .facts-item .icon i {
-        font-size: 50px;
-        color: #fff; }
-    .counters .facts-item .fact-count h3 {
-      font-size: 35px;
-      color: #fff;
-      margin-bottom: 15px; }
-    .counters .facts-item .fact-count h4 {
-      font-size: 20px;
-      font-weight: 400;
-      color: #fff; }
-
-/* ==========================================================================
-11. Testimonial Section Style
- ========================================================================== */
-#testimonial {
-  background: url(../img/testimonial-bg.jpg) fixed no-repeat;
-  background-size: cover;
-  color: #fff;
-  overflow: hidden;
-  position: relative; }
-
-.testimonial-item {
-  text-align: center; }
-  .testimonial-item img {
-    width: 80px;
-    border: 3px solid #fff;
-    height: 80px;
-    border-radius: 50%; }
-  .testimonial-item .testimonial-text h3 {
-    font-size: 15px;
-    font-weight: 700; }
-  .testimonial-item .testimonial-text span {
-    font-size: 14px;
-    color: #999; }
-  .testimonial-item .testimonial-text p {
-    font-size: 14px;
-    font-weight: 400;
-    padding: 36px 10px 30px 10px;
-    margin: 0;
-    line-height: 30px; }
-
-.owl-theme .owl-controls .owl-page span {
-  background: #FFFF; }
-
-.owl-theme .owl-controls {
   margin-top: 20px; }
 
 /* ==========================================================================
@@ -1119,5 +1064,28 @@ footer {
       color: #fff; }
       .copyright p a:hover {
         color: #FFFF; }
+
+@media screen and (max-width: 768px) {
+  .video-promo-content iframe {
+    height: 250px !important; }
+
+  #services {
+    padding-bottom: 0; }
+
+  #features {
+    padding: 0;
+    padding-top: 80px;
+    font-size: 0; }
+
+  p#fotoGrupalbox {
+    font-size: 0;
+    margin: 0;
+    padding: 0; }
+
+  #escuchar {
+    margin-top: 15px; } }
+@media screen and (max-width: 400px) {
+  .video-promo-content iframe {
+    height: 150px !important; } }
 
 /*# sourceMappingURL=main.css.map */

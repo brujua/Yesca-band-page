@@ -16,7 +16,11 @@
 
             // hide .navbar first
             $(".navbar").hide();
-
+            //check if change in parallax because of mobile
+            const mq = window.matchMedia( "(min-width: 768px)" );
+            if (!mq.matches){
+                $("#features").data("stellar-background-ratio","1");
+            }
             // fade in .navbar
             $(function () {
                 $(window).scroll(function () {
@@ -26,6 +30,8 @@
                     } else {
                         $('.navbar').fadeOut();
                     }
+
+
                 });
 
 
@@ -181,6 +187,8 @@
     responsive: true
   });
 
+
+
 /* 
    Page Loader
    ========================================================================== */
@@ -190,7 +198,7 @@
 
 /*
    Disco ball
-   ========================================================================== */
+   ==========================================================================
 
 var t = 0.05;
 var radius = 50;
@@ -249,3 +257,4 @@ function randomColor(type) {
 function randomNumber(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
+*/
